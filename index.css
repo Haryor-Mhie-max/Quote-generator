@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+  
+body{
+    min-height:100vh;
+   transition: 0.5s;
+    transition-timing-function: ease-in;
+    background-image:  #fff;   
+    display: grid;
+    font-family: 'Noto Sans JP', sans-serif;
+    place-items: center;
+}
+.quote{
+    box-shadow: -5px 5px 20px #6C7487,
+             5px -5px 30px #464466;
+    padding: 2rem;
+    margin: 2rem;
+    background: #081231;
+    border-radius: 1rem;
+}
+.header{
+  color: #e5eefd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.header .fas{
+  border: 1px solid #6C7487;
+  padding: .3rem;
+  
+}
+.quote-body{
+  display: flex;
+  align-items: center;
+  color: #bed4fa;
+  margin: 2rem 0;
+}
+.left-btn,
+.right-btn{
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0 .5rem;
+}
+.text{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.author{
+  font-size: 1.5rem;
+  color: #ffdd9a;
+  text-align: right;
+}
+.random-btn{
+  border: 1px solid #ffdd9a;
+  border-radius: 2rem;
+  background: transparent;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  outline: none;
+  color: #e5eefd;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto;
+  transition: all .3s ease-in;
+}
+.random-btn:hover{
+  background: #ffdd9a;
+  color: #081231;
+}
